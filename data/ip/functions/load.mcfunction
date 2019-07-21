@@ -1,1 +1,1 @@
-say Welcome to IndustrialPack!
+tellraw @p ["",{"text":"Welcome to IndustrialPack!","color":"gold"}]
