@@ -1,1 +1,1 @@
-execute as @e[tag=workbench] run setblock ~ ~ ~ minecraft:chest
+execute as @e[tag=workbench] at @s run setblock ~ ~ ~ minecraft:chest
