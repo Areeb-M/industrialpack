@@ -13,4 +13,4 @@ scoreboard players set @s WorkbenchStatus 0
 replaceitem block ~ ~ ~ container.16 minecraft:air
 
 # Check whether recipes are fulfilled
-execute run function ip:recipes/generator/generator0
+execute run function ip:recipes/generator/generator1
