@@ -6,7 +6,7 @@
 # Zero: No recipe is fulfilled
 
 # Check if the player has crafted the item
-execute if score @s WorkbenchStatus = One Constants run function ip:workbench-check-crafted
+execute if score @s WorkbenchStatus = One Constants run function ip:blocks/workbench/workbench-craft-item
 
 # Reset the workbench's status and output
 scoreboard players set @s WorkbenchStatus 0
