@@ -3,5 +3,5 @@
 # Uses @e only once to minimize lag
 # execute as @e[tag=ip] at @s run function ip:process-update
 
-execute as @e[tag=spawn-workbench] at @s run function ip:spawn-workbench
-execute as @e[tag=update-workbench] at @s run function ip:update-workbench
+execute as @e[tag=spawn-workbench] at @s run function ip:blocks/workbench/spawn-workbench
+execute as @e[tag=update-workbench] at @s run function ip:blocks/workbench/update-workbench
