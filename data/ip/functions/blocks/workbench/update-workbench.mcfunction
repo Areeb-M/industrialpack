@@ -6,11 +6,11 @@
 # Zero: No recipe is fulfilled
 
 # Check if the player has crafted the item
-execute if score @s WorkbenchStatus = One Constants at @s run function ip:blocks/workbench/workbench-check-crafted
+execute if score @s WorkbenchStatus = One Constants run function ip:blocks/workbench/workbench-check-crafted
 
 # Reset the workbench's status and output
 scoreboard players set @s WorkbenchStatus 0
 replaceitem block ~ ~ ~ container.16 minecraft:air
 
 # Check whether recipes are fulfilled
-execute at @s run function ip:blocks/workbench/recipes/generator/generator1
+execute run function ip:blocks/workbench/recipes/generator/generator1
